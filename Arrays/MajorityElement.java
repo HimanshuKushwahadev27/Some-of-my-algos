@@ -2,7 +2,10 @@ package Arrays;
 
 class MajorityElement {
     public int majorityElement(int[] nums) {
-        
+      
+      //utilized Boyer-Moore Voting Algorithm , no case where there is no majority element as it is given that majority element always exists(given in question)
+      
+
         int vote = 0 , candidate = -1 ;
 
         for(int i = 0 ; i < nums.length ; i++){
@@ -19,16 +22,7 @@ class MajorityElement {
 
             
         }
-
-        int count = 0 ;
-
-        for(int i = 0 ; i < nums.length ; i++){
-            if(nums[i]==candidate){
-                count++;
-            }
-        }
-
-       
+ 
         return candidate;
         
     }

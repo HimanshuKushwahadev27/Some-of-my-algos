@@ -3,7 +3,7 @@ package Arrays;
 class RemoveDuplicates2 {
     public int removeDuplicates(int[] nums) {
 
-        int low = 0 , cnt = 1 ;
+        int low = 0  ;
 
         int length = nums.length ;
 
