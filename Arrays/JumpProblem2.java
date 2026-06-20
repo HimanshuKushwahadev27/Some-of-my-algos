@@ -1,4 +1,4 @@
-package Arrays;
+
 
 public class JumpProblem2 {
       public int jump(int[] nums) {

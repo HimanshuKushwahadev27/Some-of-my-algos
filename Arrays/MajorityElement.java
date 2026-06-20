@@ -1,4 +1,4 @@
-package Arrays;
+
 
 class MajorityElement {
     public int majorityElement(int[] nums) {
