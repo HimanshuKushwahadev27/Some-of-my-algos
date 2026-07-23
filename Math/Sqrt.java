@@ -1,4 +1,3 @@
-package Math;
 
 public class Sqrt {
       public int mySqrt(int x) {

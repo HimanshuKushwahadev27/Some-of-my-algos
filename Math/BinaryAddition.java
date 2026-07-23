@@ -1,4 +1,3 @@
-package Math;
 
 public class BinaryAddition {
    public String addBinary(String a, String b) {
