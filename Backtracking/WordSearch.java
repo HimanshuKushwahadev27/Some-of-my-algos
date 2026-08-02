@@ -1,4 +1,3 @@
-package Backtracking;
 
 public class WordSearch {
    int[] r = {-1, 1, 0, 0};
