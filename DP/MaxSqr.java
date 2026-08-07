@@ -1,0 +1,24 @@
+package DP;
+
+public class MaxSqr {
+   public int maximalSquare(char[][] matrix) {
+         int rows = matrix.length;
+        int cols = matrix[0].length;
+
+        int[][] dp = new int[rows + 1][cols + 1];
+        int maxSide = 0;
+
+        for (int r = 1; r <= rows; r++) {
+            for (int c = 1; c <= cols; c++) {
+                if (matrix[r - 1][c - 1] == '1') {
+                    dp[r][c] = 1 + Math.min(dp[r - 1][c - 1],
+                                   Math.min(dp[r - 1][c], dp[r][c - 1]));
+                    maxSide = Math.max(maxSide, dp[r][c]);
+                }
+                // if '0', dp[r][c] stays 0 — no square can end here
+            }
+        }
+
+        return maxSide * maxSide;
+    }
+}
