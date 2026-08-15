@@ -11,7 +11,7 @@ class Impl{
 
     private final TrieNode root;
 
-    public Trie() {
+    public Impl() {
         root = new TrieNode();
     }
 
