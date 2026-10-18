@@ -1,4 +1,3 @@
-package DP;
 
 public class MaxSqr {
    public int maximalSquare(char[][] matrix) {

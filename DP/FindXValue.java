@@ -1,4 +1,3 @@
-package DP;
 
 public class FindXValue {
    int n = nums.length;

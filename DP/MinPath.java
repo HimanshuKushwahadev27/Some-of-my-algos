@@ -1,4 +1,3 @@
-package DP;
 public class MinPath{
   public int uniquePathsWithObstacles(int[][] obstacleGrid) {
         int rows = obstacleGrid.length;

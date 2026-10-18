@@ -1,4 +1,3 @@
-package DP;
 
 public class BuyAndSellStock2 {
      public int maxProfit(int[] prices) {

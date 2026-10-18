@@ -1,4 +1,3 @@
-package DP;
 
 public class PalindromicSubstring {
    private int expandAroundCenter(String s, int left, int right) {
