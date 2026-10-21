@@ -1,3 +1,6 @@
+package Intervals;
+import java.util.Arrays;
+
 class SortString {
     public int minOperations(String s) {
         int n = s.length();
